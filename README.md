@@ -17,7 +17,7 @@ Alles wurde wie in der Anforderung beschrieben umgesetzt. Ich wünsche euch viel
 
 Um einen lokalen Entwicklungsserver zu starten, führt den folgenden Befehl aus:
 
-    ng serve
+    npm run start
 
 sobald der Server läuft, öffnet euren Browser und navigiert zu http://localhost:4200/.
 Die Anwendung wird automatisch neu geladen, sobald Änderungen an den Quelldateien vorgenommen werden.
