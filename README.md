@@ -1,59 +1,26 @@
-# CatalogDemoView
+# README
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
+Dieses Projekt wurde mit Angular CLI Version 19.0.4 erstellt.
 
-## Development server
+Die Benutzeroberfläche ist sehr einfach gehalten: Es gibt eine Tabelle und die Möglichkeit, eine Datei hochzuladen.
 
-To start a local development server, run:
+**Wichtig:**
+- Nach dem Hochladen der Datei muss die Tabelle aktualisiert werden, um die Daten anzuzeigen.
+- Die API muss zuerst auf Port **9001** gestartet werden. Falls die API auf einem anderen Port läuft, passt die `baseURL`-Variable in der Datei `app.service.ts` entsprechend an.
+- Der Sprachwechsel funktioniert nur, wenn die jeweilige Sprache verfügbar ist. Stellt sicher, dass beide Sprachen hochgeladen sind, damit der Sprachwechsel korrekt funktioniert.
 
-```bash
-ng serve
-```
+Alles wurde wie in der Anforderung beschrieben umgesetzt. Ich wünsche euch viel Spaß damit!
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## Entwicklungsserver
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Um einen lokalen Entwicklungsserver zu starten, führt den folgenden Befehl aus:
 
-```bash
-ng generate component component-name
-```
+    ng serve
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+sobald der Server läuft, öffnet euren Browser und navigiert zu http://localhost:4200/.
+Die Anwendung wird automatisch neu geladen, sobald Änderungen an den Quelldateien vorgenommen werden.
 
-```bash
-ng generate --help
-```
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Falls du weitere Anpassungen benötigst, lass es mich wissen! 😊
