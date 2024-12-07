@@ -1,4 +1,8 @@
 # README
+@Author: Louis Iskandar (07.12.2024)
+
+Arbeitsaufwand: 10 Stunden inklusive Frontend
+
 
 Dieses Projekt wurde mit Angular CLI Version 19.0.4 erstellt.
 
@@ -17,6 +21,7 @@ Alles wurde wie in der Anforderung beschrieben umgesetzt. Ich wünsche euch viel
 
 Um einen lokalen Entwicklungsserver zu starten, führt den folgenden Befehl aus:
 
+    npm install
     npm run start
 
 sobald der Server läuft, öffnet euren Browser und navigiert zu http://localhost:4200/.
